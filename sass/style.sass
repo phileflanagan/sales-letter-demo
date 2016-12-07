@@ -1,0 +1,74 @@
+body
+	background: radial-gradient(circle, #333, #222)
+	height: 100vh
+
+section 
+	margin: 0
+	padding: 60px 0
+	color: #444
+
+h1, h2, h3, h4, h5, h6
+	text-align: center
+
+.container 
+	max-width: 960px
+	margin: 0 auto
+.thin 
+	padding: 20px 0
+
+.banner 
+	background: radial-gradient(circle, royalblue, darken(royalblue, 10))
+	color: white
+	
+.testimonials 
+	background-color: #ccc
+
+.lead
+	background-color: #f5f5f5
+	color: #666
+
+.highlight
+	background-color: lighten(yellow, 20)
+
+.attention
+	font-size: 1.2em
+	text-transform: uppercase
+	letter-spacing: -0.3px
+	max-width: 600px
+	margin: 0 auto
+
+.red 
+	color: darken(red,20)
+
+blockquote 
+	position: relative
+	display: block
+	background-color: #f5f5f5
+	padding: 20px 10px
+	color: #888
+	text-align: center
+	border-radius: 0.5em
+	border-bottom-right-radius: 0
+	&:before
+		position: absolute
+		content: "\f10d"
+		font-family: FontAwesome
+		top: -10px
+		left: -10px
+		font-size: 2em
+	&:after
+		content: ""
+		position: absolute
+		right: -14px
+		bottom: 0px
+		// background-color: red
+		border: 7px solid transparent
+		border-left-color: #f5f5f5
+		border-bottom-color: #f5f5f5
+	cite
+		display: block
+		text-align: right
+		margin: 10px 10% 0
+		color: #999
+		&:before
+			content: "\2014"
